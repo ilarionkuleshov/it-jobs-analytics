@@ -1,0 +1,20 @@
+[project]
+name = "it-jobs-analytics"
+version = "0.1.0"
+description = "Analytics for categorizing IT jobs and extracting required technologies."
+authors = [
+    {name = "ilarionkuleshov",email = "ilarion.kuleshov@gmail.com"}
+]
+readme = "README.md"
+requires-python = "^3.12"
+dependencies = [
+    "pydantic (>=2.11.3,<3.0.0)",
+    "fastcrawl (>=0.5.0,<0.6.0)",
+    "pydantic-settings (>=2.9.1,<3.0.0)",
+    "openai (>=1.75.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
