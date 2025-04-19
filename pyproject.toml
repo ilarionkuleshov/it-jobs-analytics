@@ -11,7 +11,9 @@ dependencies = [
     "pydantic (>=2.11.3,<3.0.0)",
     "fastcrawl (>=0.5.0,<0.6.0)",
     "pydantic-settings (>=2.9.1,<3.0.0)",
-    "openai (>=1.75.0,<2.0.0)"
+    "openai (>=1.75.0,<2.0.0)",
+    "sqlalchemy (>=2.0.40,<3.0.0)",
+    "alembic (>=1.15.2,<2.0.0)"
 ]
 
 
